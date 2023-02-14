@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  width: 50em;
+height: 50rem;
+background-color:antiquewhite;
+
+}
+.input{
+  border-radius: 15px ;
+ 
+  width:10rem;
+  height: 2em;
+}
+.texter{
+  display: table-caption;
+  
+}
+textarea{
+  width: 40rem;
+  height: 20em;
+}
+.btn {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+  .addnote{
+    border-radius: 10px;
+    background-color: cadetblue;
+  }
+  .darkorange {
+    background-color: darkorange;
+  
+  }
+  
+  .darkorange:hover{
+    border: black solid 2px;
+  }
+  
+  .pink {
+    background-color: pink;
+  }
+  
+  .pink:hover{
+    border: black solid 2px;
+  }
+  
+  .burlywood {
+    background-color: burlywood;
+  }
+  
+  .burlywood:hover{
+    border: black solid 2px;
+  }
+  
+  .cadetblue {
+    background-color: cadetblue;
+  }
+  
+  .cadetblue:hover{
+    border: black solid 2px;
+  }
+  
+  .lightgreen {
+    background-color: lightgreen;
+  }
+  .lightgreen:hover{
+    border: black solid 2px;
+  }
+  
+.notes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.note{
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  background-color: #F8F9D7;
+  box-shadow: -3px 3px 11px -3px rgba(0,0,0,0.75);
+  margin: 20px 5px;
+  color: #000;
+  position: relative;
+  overflow: auto;
+}
+.delete-note{
+  float: right;
+}
+.add-btn{
+  background-color: #6E85B7;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.add-btn:hover{
+  opacity: 0.8;
+  color: #000;
+}
