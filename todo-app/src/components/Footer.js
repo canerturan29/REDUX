@@ -5,10 +5,10 @@ function Footer() {
         <footer className="info">
             <p>Click to edit a todo</p>
             <p>
-                Created by <a href="https://d12n.me/">Dmitry Sharabin</a>
+                Created by <a href="https://www.linkedin.com/in/caner-turan">Caner Turan</a>
             </p>
             <p>
-                Part of <a href="http://todomvc.com">TodoMVC</a>
+                Part ofTodoMVC</a>
             </p>
         </footer>
     )
